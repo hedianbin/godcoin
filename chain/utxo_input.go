@@ -7,7 +7,7 @@ import (
 	"github.com/hedianbin/godcoin/util/hashx"
 )
 
-// OutPoint defines a dotcoin data type that is used to track previous
+// OutPoint defines a godcoin data type that is used to track previous
 // transaction outputs.
 type OutPoint struct {
 	Hash  hashx.Hash
@@ -18,7 +18,7 @@ func (o OutPoint) StringHash() string {
 	return o.Hash.String()
 }
 
-// NewOutPoint returns a new dotcoin transaction outpoint point with the
+// NewOutPoint returns a new godcoin transaction outpoint point with the
 // provided hash and index.
 func NewOutPoint(hash *hashx.Hash, index int) *OutPoint {
 	return &OutPoint{

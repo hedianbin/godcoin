@@ -1,4 +1,4 @@
-# DotCoin
+# godcoin
 
 ## Version 0.1.9
 * New Feature: add ServerConfig, use to control part of Server behavior
@@ -30,8 +30,8 @@
 * Add: GetVersion Rpc command
 * Add: CLI Version command
 * Command:
-* if Genesis Node: ./dotcoin {NodeID} startnode -miner={Wallet Address} -isgenesis=true -listen="XX.XX.XX.XX:2398"
-* if Normal Node: ./dotcoin {NodeID} startnode -miner={Wallet Address} -listen="XX.XX.XX.XX:2398" -seed="XX.XX.XX.XX:2398"
+* if Genesis Node: ./godcoin {NodeID} startnode -miner={Wallet Address} -isgenesis=true -listen="XX.XX.XX.XX:2398"
+* if Normal Node: ./godcoin {NodeID} startnode -miner={Wallet Address} -listen="XX.XX.XX.XX:2398" -seed="XX.XX.XX.XX:2398"
 * 2018-06-12 14:00
 
 ## Version 0.1.5
@@ -103,5 +103,5 @@
 * 2018-04-19 20:00
 
 ## version 0.05
-* DotCoin print first BlockChain with GenesisBlock！
+* godcoin print first BlockChain with GenesisBlock！
 * 2018-04-17 23:55
