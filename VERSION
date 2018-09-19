@@ -1,0 +1,107 @@
+# DotCoin
+
+## Version 0.1.9
+* New Feature: add ServerConfig, use to control part of Server behavior
+* New Feature: CLI add IsMining cmd Flag, use to control is enabled mining
+* Update: update enabled empty txs when new block mining
+* Update: log add Time field
+* Update: remove proof package, add mining package
+* BugFixed: gob encoding lost some field
+* 2018-07-13 17:00
+
+## Version 0.1.8
+* New Feature: add ChainIndex to storage block index in db and runtime
+* New Feature: add blockIndex
+* Update: modify block's Difficult use uint32
+* Update: Blockchain.HaveBlock now will first search in ChainIndex, if not exists, search in db
+* 2018-06-25 13:00
+
+## Version 0.1.7
+* Add: MsgVersion add LastBlockHash & LastBlockPrevHash field
+* Add: check LastBlockHash & LastBlockPrevHash when new version message receive
+* Add: check difficulty if the same height when add new block
+* Add: check MerkleRoot when process new block
+* 2018-06-16 23:45
+
+## Version 0.1.6
+* Update: CLI startnode command now can work.
+* Add: ListMemPool Rpc command
+* Add: ListBlocks Rpc command
+* Add: GetVersion Rpc command
+* Add: CLI Version command
+* Command:
+* if Genesis Node: ./dotcoin {NodeID} startnode -miner={Wallet Address} -isgenesis=true -listen="XX.XX.XX.XX:2398"
+* if Normal Node: ./dotcoin {NodeID} startnode -miner={Wallet Address} -listen="XX.XX.XX.XX:2398" -seed="XX.XX.XX.XX:2398"
+* 2018-06-12 14:00
+
+## Version 0.1.5
+* Update: if add block success, remove repetition txs in txmempool
+* Fixed: create merkletree out index bug
+* Add: print logo when start node
+* Add: new printlogo command
+* 2018-06-07 12:30
+
+## version 0.1.4
+* Add CLI tools
+* Now support command: printchain|createwallet|getbalance|listaddresses|startnode
+* 2018-06-06 18:30
+
+## version 0.1.3
+* Add Blockchain.TerminationMine() use to stop current mining
+* Add Send signal when accept new block message
+* Modify ProofOfWork.solveHash add quit chan
+* 2018-05-31 21:00
+
+## version 0.1.2
+* Add PushVersion when in StartServer
+* Add MsgTx and related Handler
+* Add process new transaction
+* Add Transaction CalcHash func
+* Modify GetHash\StringHash use ID
+* Perfect Sign and Data message process logic
+* fixed some bug
+* 2018-05-30 19:00
+
+## version 0.1.1
+* Replace connx for gob.Encode(conn)
+* Add Blockchain process new block
+* Add Blockchain orphanBlocks
+* Add Blockchain prevOrphanBlocks
+* fixed some bug
+* 2018-05-24 17:00
+
+## version 0.1
+* Add Server struct
+* Implement MsgGetBlocks message
+* Implement MsgVersion message
+* Implement MsgGetData message
+* Implement MsgBlock message
+* Implement Blockchain.ProcessBlock func
+* Update server_test code
+* 2018-05-23 23:00
+
+## version 0.09
+* Implement peer.MessageHandle's default mode: server.MessageHandler
+* Implement peer.Boardcast、peer.Single
+* Implement protocol: Msg
+* Add logx.DevDebubf、logx.DevPrintf
+* 2018-04-28 19:00
+
+## version 0.08
+* Add Block MerkleRoot
+* Add peer - first code from https://github.com/uuchain/dotray
+* 2018-04-25 22:00
+
+## version 0.07
+* Add Server Mining
+* 2018-04-24 17:00
+
+## version 0.06
+* Add Server for begin rpc listen and mining
+* Add rpc server
+* Add loop mining
+* 2018-04-19 20:00
+
+## version 0.05
+* DotCoin print first BlockChain with GenesisBlock！
+* 2018-04-17 23:55
