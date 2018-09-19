@@ -4,7 +4,7 @@ import (
 	"sync"
 	"log"
 	"time"
-	"github.com/michain/dotcoin/chain"
+	"github.com/hedianbin/godcoin/chain"
 	"sync/atomic"
 	"fmt"
 	"github.com/pkg/errors"
@@ -13,8 +13,8 @@ import (
 	"bytes"
 	"encoding/gob"
 
-	"github.com/michain/dotcoin/logx"
-	"github.com/michain/dotcoin/util/hashx"
+	"github.com/hedianbin/godcoin/logx"
+	"github.com/hedianbin/godcoin/util/hashx"
 )
 
 

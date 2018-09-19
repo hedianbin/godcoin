@@ -5,7 +5,7 @@ import (
 	"sync"
 	"fmt"
 	"bytes"
-	"github.com/michain/dotcoin/protocol"
+	"github.com/hedianbin/godcoin/protocol"
 )
 
 const maxInventorySize = 100

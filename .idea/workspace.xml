@@ -2,7 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaff9066-a431-4da8-938c-29138afb1935" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/TxPool.go" beforeDir="false" afterPath="$PROJECT_DIR$/chain/TxPool.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/block.go" beforeDir="false" afterPath="$PROJECT_DIR$/chain/block.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/block_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/chain/block_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/blockchain.go" beforeDir="false" afterPath="$PROJECT_DIR$/chain/blockchain.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/blockchain_iterator.go" beforeDir="false" afterPath="$PROJECT_DIR$/chain/blockchain_iterator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/blockchain_process.go" beforeDir="false" afterPath="$PROJECT_DIR$/chain/blockchain_process.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/blockchain_validate.go" beforeDir="false" afterPath="$PROJECT_DIR$/chain/blockchain_validate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/blockindex.go" beforeDir="false" afterPath="$PROJECT_DIR$/chain/blockindex.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/transaction.go" beforeDir="false" afterPath="$PROJECT_DIR$/chain/transaction.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/utxo_input.go" beforeDir="false" afterPath="$PROJECT_DIR$/chain/utxo_input.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/utxo_output.go" beforeDir="false" afterPath="$PROJECT_DIR$/chain/utxo_output.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/utxo_set.go" beforeDir="false" afterPath="$PROJECT_DIR$/chain/utxo_set.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/cli.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/cli.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/cli_createwallet.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/cli_createwallet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/cli_getbalance.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/cli_getbalance.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/cli_listaddresses.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/cli_listaddresses.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/cli_printchain.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/cli_printchain.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/cli_startnode.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/cli_startnode.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mempool/mempool.go" beforeDir="false" afterPath="$PROJECT_DIR$/mempool/mempool.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mining/proofofwork.go" beforeDir="false" afterPath="$PROJECT_DIR$/mining/proofofwork.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peer/peer.go" beforeDir="false" afterPath="$PROJECT_DIR$/peer/peer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peer/peer_conn.go" beforeDir="false" afterPath="$PROJECT_DIR$/peer/peer_conn.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peer/peer_handle.go" beforeDir="false" afterPath="$PROJECT_DIR$/peer/peer_handle.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peer/peer_net.go" beforeDir="false" afterPath="$PROJECT_DIR$/peer/peer_net.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peer/peer_node.go" beforeDir="false" afterPath="$PROJECT_DIR$/peer/peer_node.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peer/peer_pushmsg.go" beforeDir="false" afterPath="$PROJECT_DIR$/peer/peer_pushmsg.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peer/peer_recive.go" beforeDir="false" afterPath="$PROJECT_DIR$/peer/peer_recive.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peer/peer_send.go" beforeDir="false" afterPath="$PROJECT_DIR$/peer/peer_send.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol/message_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/message_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol/msgBlock.go" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/msgBlock.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol/msgGetBlocks.go" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/msgGetBlocks.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol/msgInv.go" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/msgInv.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protocol/msgTx.go" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/msgTx.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/rpctest/rpcclient.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/rpctest/rpcclient.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server_mining.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/server_mining.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server_peerhandler.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/server_peerhandler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server_rpchandle.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/server_rpchandle.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/server_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sync/inventorySet.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync/inventorySet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sync/manager.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync/manager.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sync/manager_handle.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync/manager_handle.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sync/peerSyncState.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync/peerSyncState.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/wallet.go" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/wallet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/wallet_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/wallet_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/walletset.go" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/walletset.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,12 +68,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="go" value="15" />
+          <entry key="go" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="15" />
+          <entry key="Go" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -46,12 +94,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/config.go">
+        <entry file="file://$PROJECT_DIR$/cli/cli_createwallet.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="170">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding>
-                <element signature="e#16#131#0" expanded="true" />
+                <element signature="e#13#74#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,6 +116,7 @@
       <list>
         <option value="$PROJECT_DIR$/cli/cli_startnode.go" />
         <option value="$PROJECT_DIR$/config/config.go" />
+        <option value="$PROJECT_DIR$/cli/cli_createwallet.go" />
       </list>
     </option>
   </component>
@@ -78,7 +127,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1" />
     <option name="y" value="23" />
     <option name="width" value="1382" />
     <option name="height" value="706" />
@@ -179,15 +228,15 @@
     </option>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="23" width="1382" height="706" extended-state="0" />
+    <frame x="1" y="23" width="1382" height="706" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -299,6 +348,16 @@
           <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding>
             <element signature="e#16#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/cli_createwallet.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="e#13#74#0" expanded="true" />
           </folding>
         </state>
       </provider>

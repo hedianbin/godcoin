@@ -5,7 +5,7 @@ import (
 	"os"
 	"flag"
 	"log"
-	"github.com/michain/dotcoin/const"
+	"github.com/hedianbin/godcoin/const"
 )
 
 const tcpPort = ":2398"

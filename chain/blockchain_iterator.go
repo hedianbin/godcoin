@@ -3,7 +3,7 @@ package chain
 import (
 	"github.com/boltdb/bolt"
 	"log"
-	"github.com/michain/dotcoin/storage"
+	"github.com/hedianbin/godcoin/storage"
 )
 
 // BlockchainIterator implement a iterator for blockchain blocks

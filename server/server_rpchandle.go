@@ -1,13 +1,13 @@
 package server
 
 import (
-	"github.com/michain/dotcoin/chain"
+	"github.com/hedianbin/godcoin/chain"
 	"errors"
 	"fmt"
-	"github.com/michain/dotcoin/server/packet"
-	"github.com/michain/dotcoin/wallet"
-	"github.com/michain/dotcoin/protocol"
-	"github.com/michain/dotcoin/const"
+	"github.com/hedianbin/godcoin/server/packet"
+	"github.com/hedianbin/godcoin/wallet"
+	"github.com/hedianbin/godcoin/protocol"
+	"github.com/hedianbin/godcoin/const"
 )
 
 var (

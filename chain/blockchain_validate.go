@@ -2,7 +2,7 @@ package chain
 
 import (
 	"math/big"
-	"github.com/michain/dotcoin/util/hashx"
+	"github.com/hedianbin/godcoin/util/hashx"
 	"bytes"
 )
 

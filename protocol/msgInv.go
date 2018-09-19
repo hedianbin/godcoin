@@ -2,7 +2,7 @@ package protocol
 
 import (
 	"fmt"
-	"github.com/michain/dotcoin/util/hashx"
+	"github.com/hedianbin/godcoin/util/hashx"
 )
 
 // Map of service flags back to their constant names for pretty printing.

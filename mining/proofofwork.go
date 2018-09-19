@@ -5,8 +5,8 @@ import (
 	"math"
 	"math/big"
 	"bytes"
-	"github.com/michain/dotcoin/util"
-	"github.com/michain/dotcoin/logx"
+	"github.com/hedianbin/godcoin/util"
+	"github.com/hedianbin/godcoin/logx"
 	"encoding/hex"
 )
 

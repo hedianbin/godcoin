@@ -5,11 +5,11 @@ import (
 	"bytes"
 	"encoding/gob"
 	"log"
-	"github.com/michain/dotcoin/merkle"
-	"github.com/michain/dotcoin/mining"
+	"github.com/hedianbin/godcoin/merkle"
+	"github.com/hedianbin/godcoin/mining"
 	"fmt"
 	"strings"
-	"github.com/michain/dotcoin/util/hashx"
+	"github.com/hedianbin/godcoin/util/hashx"
 )
 
 const genesisReward = 100

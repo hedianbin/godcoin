@@ -9,13 +9,13 @@ import (
 	"crypto/rand"
 	"crypto/elliptic"
 	"math/big"
-	"github.com/michain/dotcoin/wallet"
+	"github.com/hedianbin/godcoin/wallet"
 	"crypto/sha256"
 	"strings"
-	"github.com/michain/dotcoin/util"
-	"github.com/michain/dotcoin/util/hashx"
+	"github.com/hedianbin/godcoin/util"
+	"github.com/hedianbin/godcoin/util/hashx"
 	"errors"
-	"github.com/michain/dotcoin/logx"
+	"github.com/hedianbin/godcoin/logx"
 )
 
 

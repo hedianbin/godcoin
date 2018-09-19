@@ -1,12 +1,12 @@
 package sync
 
 import (
-	"github.com/michain/dotcoin/protocol"
-	"github.com/michain/dotcoin/peer"
-	"github.com/michain/dotcoin/chain"
-	"github.com/michain/dotcoin/mempool"
-	"github.com/michain/dotcoin/util/hashx"
-	"github.com/michain/dotcoin/addr"
+	"github.com/hedianbin/godcoin/protocol"
+	"github.com/hedianbin/godcoin/peer"
+	"github.com/hedianbin/godcoin/chain"
+	"github.com/hedianbin/godcoin/mempool"
+	"github.com/hedianbin/godcoin/util/hashx"
+	"github.com/hedianbin/godcoin/addr"
 )
 
 // Config is a configuration struct used to initialize a new SyncManager.

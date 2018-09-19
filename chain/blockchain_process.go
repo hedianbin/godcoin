@@ -1,8 +1,8 @@
 package chain
 
 import (
-	"github.com/michain/dotcoin/util/hashx"
-	"github.com/michain/dotcoin/logx"
+	"github.com/hedianbin/godcoin/util/hashx"
+	"github.com/hedianbin/godcoin/logx"
 	"fmt"
 	"errors"
 	"github.com/labstack/gommon/log"

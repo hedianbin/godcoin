@@ -1,9 +1,9 @@
 package peer
 
 import (
-	"github.com/michain/dotcoin/protocol"
+	"github.com/hedianbin/godcoin/protocol"
 	"math/rand"
-	"github.com/michain/dotcoin/logx"
+	"github.com/hedianbin/godcoin/logx"
 )
 
 func (p *Peer) PushAddrMsg(msg *protocol.MsgAddr) error {

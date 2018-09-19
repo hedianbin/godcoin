@@ -7,13 +7,13 @@ import (
 	"log"
 	"errors"
 	"os"
-	"github.com/michain/dotcoin/util"
-	"github.com/michain/dotcoin/storage"
-	"github.com/michain/dotcoin/wallet"
-	"github.com/michain/dotcoin/util/hashx"
+	"github.com/hedianbin/godcoin/util"
+	"github.com/hedianbin/godcoin/storage"
+	"github.com/hedianbin/godcoin/wallet"
+	"github.com/hedianbin/godcoin/util/hashx"
 	"sync"
 	"encoding/hex"
-	"github.com/michain/dotcoin/logx"
+	"github.com/hedianbin/godcoin/logx"
 )
 
 const genesisCoinbaseData = "The Times 15/April/2018 for my 35th birthday!"

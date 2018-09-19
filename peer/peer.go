@@ -1,8 +1,8 @@
 package peer
 
 import (
-	"github.com/michain/dotcoin/protocol"
-	"github.com/michain/dotcoin/util/hashx"
+	"github.com/hedianbin/godcoin/protocol"
+	"github.com/hedianbin/godcoin/util/hashx"
 )
 
 // Peer extends the node to maintain state shared by the server

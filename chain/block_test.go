@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/michain/dotcoin/wallet"
+	"github.com/hedianbin/godcoin/wallet"
 )
 
 var(

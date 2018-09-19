@@ -3,7 +3,7 @@ package peer
 import (
 	"time"
 	"net"
-	"github.com/michain/dotcoin/logx"
+	"github.com/hedianbin/godcoin/logx"
 )
 
 type Packet struct {

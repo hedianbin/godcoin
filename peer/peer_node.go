@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"io"
 	"errors"
-	"github.com/michain/dotcoin/connx"
+	"github.com/hedianbin/godcoin/connx"
 	"encoding/gob"
 )
 

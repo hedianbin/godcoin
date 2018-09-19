@@ -5,7 +5,7 @@ import (
 	"bytes"
 	"log"
 	"os"
-	"github.com/michain/dotcoin/util/uuid"
+	"github.com/hedianbin/godcoin/util/uuid"
 )
 
 func GetRandData() string{

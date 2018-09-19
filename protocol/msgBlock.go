@@ -1,6 +1,6 @@
 package protocol
 
-import "github.com/michain/dotcoin/chain"
+import "github.com/hedianbin/godcoin/chain"
 
 type MsgBlock struct {
 	NetMessage

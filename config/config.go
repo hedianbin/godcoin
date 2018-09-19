@@ -3,8 +3,8 @@ package config
 import (
 	"encoding/xml"
 	"io/ioutil"
-	"github.com/michain/dotcoin/util/filex"
-	"github.com/michain/dotcoin/logx"
+	"github.com/hedianbin/godcoin/util/filex"
+	"github.com/hedianbin/godcoin/logx"
 )
 
 var (

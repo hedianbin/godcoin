@@ -1,7 +1,7 @@
 package cli
 
 import (
-	"github.com/michain/dotcoin/chain"
+	"github.com/hedianbin/godcoin/chain"
 	"log"
 )
 

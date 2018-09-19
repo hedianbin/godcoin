@@ -2,9 +2,9 @@ package cli
 
 import (
 	"fmt"
-	"github.com/michain/dotcoin/wallet"
+	"github.com/hedianbin/godcoin/wallet"
 	"log"
-	"github.com/michain/dotcoin/chain"
+	"github.com/hedianbin/godcoin/chain"
 )
 
 func (cli *CLI) getBalance(address, nodeID string) {

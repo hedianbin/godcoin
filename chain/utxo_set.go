@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"log"
 	"github.com/boltdb/bolt"
-	"github.com/michain/dotcoin/storage"
+	"github.com/hedianbin/godcoin/storage"
 )
 
 

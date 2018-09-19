@@ -1,8 +1,8 @@
 package server
 
 import (
-	"github.com/michain/dotcoin/protocol"
-	"github.com/michain/dotcoin/logx"
+	"github.com/hedianbin/godcoin/protocol"
+	"github.com/hedianbin/godcoin/logx"
 )
 
 type MessageHandler struct{

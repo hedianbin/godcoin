@@ -4,7 +4,7 @@ import (
 	"net/rpc/jsonrpc"
 	"fmt"
 	"os"
-	"github.com/michain/dotcoin/server/packet"
+	"github.com/hedianbin/godcoin/server/packet"
 	"net/rpc"
 )
 

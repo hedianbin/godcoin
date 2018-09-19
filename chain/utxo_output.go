@@ -1,7 +1,7 @@
 package chain
 
 import (
-	"github.com/michain/dotcoin/wallet"
+	"github.com/hedianbin/godcoin/wallet"
 	"bytes"
 	"encoding/gob"
 	"log"

@@ -2,7 +2,7 @@ package protocol
 
 import (
 	"testing"
-	"github.com/michain/dotcoin/util/hashx"
+	"github.com/hedianbin/godcoin/util/hashx"
 	"encoding/gob"
 	"bytes"
 )

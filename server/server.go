@@ -1,22 +1,22 @@
 package server
 
 import (
-	"github.com/michain/dotcoin/sync"
+	"github.com/hedianbin/godcoin/sync"
 	"net"
 	"net/rpc"
 	"fmt"
 	"net/rpc/jsonrpc"
-	"github.com/michain/dotcoin/peer"
-	"github.com/michain/dotcoin/wallet"
-	"github.com/michain/dotcoin/chain"
+	"github.com/hedianbin/godcoin/peer"
+	"github.com/hedianbin/godcoin/wallet"
+	"github.com/hedianbin/godcoin/chain"
 	"log"
-	"github.com/michain/dotcoin/logx"
+	"github.com/hedianbin/godcoin/logx"
 	"errors"
-	"github.com/michain/dotcoin/util/uuid"
-	"github.com/michain/dotcoin/mempool"
-	"github.com/michain/dotcoin/addr"
+	"github.com/hedianbin/godcoin/util/uuid"
+	"github.com/hedianbin/godcoin/mempool"
+	"github.com/hedianbin/godcoin/addr"
 	"time"
-	"github.com/michain/dotcoin/protocol"
+	"github.com/hedianbin/godcoin/protocol"
 )
 
 /*var curNodeID string

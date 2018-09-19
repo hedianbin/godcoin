@@ -3,7 +3,7 @@ package wallet
 import (
 	"testing"
 	"fmt"
-	"github.com/michain/dotcoin/base58"
+	"github.com/hedianbin/godcoin/base58"
 	"os"
 	"syscall"
 	"path/filepath"

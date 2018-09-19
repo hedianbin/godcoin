@@ -3,10 +3,10 @@ package chain
 import (
 	"sync"
 	"math/big"
-	"github.com/michain/dotcoin/util/hashx"
+	"github.com/hedianbin/godcoin/util/hashx"
 	"github.com/boltdb/bolt"
 	"encoding/binary"
-	"github.com/michain/dotcoin/storage"
+	"github.com/hedianbin/godcoin/storage"
 	"bytes"
 	"encoding/gob"
 	"log"

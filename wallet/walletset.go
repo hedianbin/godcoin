@@ -7,7 +7,7 @@ import (
 	"encoding/gob"
 	"log"
 	"bytes"
-	"github.com/michain/dotcoin/util"
+	"github.com/hedianbin/godcoin/util"
 	"github.com/pkg/errors"
 	"sync"
 )

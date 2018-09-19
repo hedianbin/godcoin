@@ -2,9 +2,9 @@ package server
 
 import (
 	"time"
-	"github.com/michain/dotcoin/chain"
-	"github.com/michain/dotcoin/protocol"
-	"github.com/michain/dotcoin/logx"
+	"github.com/hedianbin/godcoin/chain"
+	"github.com/hedianbin/godcoin/protocol"
+	"github.com/hedianbin/godcoin/logx"
 )
 
 const(

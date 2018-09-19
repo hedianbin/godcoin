@@ -9,7 +9,7 @@ import (
 	"bytes"
 
 	"golang.org/x/crypto/ripemd160"
-	"github.com/michain/dotcoin/base58"
+	"github.com/hedianbin/godcoin/base58"
 	"fmt"
 )
 

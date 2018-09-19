@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/michain/dotcoin/cli"
+	"github.com/hedianbin/godcoin/cli"
 )
 
 func main() {

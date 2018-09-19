@@ -4,12 +4,12 @@ import (
 	"testing"
 	"fmt"
 	"os"
-	"github.com/michain/dotcoin/chain"
+	"github.com/hedianbin/godcoin/chain"
 	"bytes"
 	"log"
 	"time"
-	"github.com/michain/dotcoin/protocol"
-	"github.com/michain/dotcoin/util/hashx"
+	"github.com/hedianbin/godcoin/protocol"
+	"github.com/hedianbin/godcoin/util/hashx"
 	"encoding/hex"
 )
 

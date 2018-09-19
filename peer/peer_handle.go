@@ -1,7 +1,7 @@
 package peer
 
 import (
-	"github.com/michain/dotcoin/protocol"
+	"github.com/hedianbin/godcoin/protocol"
 )
 type MessageHandle interface {
 

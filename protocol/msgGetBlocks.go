@@ -1,6 +1,6 @@
 package protocol
 
-import "github.com/michain/dotcoin/util/hashx"
+import "github.com/hedianbin/godcoin/util/hashx"
 
 // MaxBlocksPerMsg is the max number of block hashes allowed
 // per message.

@@ -1,11 +1,11 @@
 package sync
 
 import (
-	"github.com/michain/dotcoin/protocol"
-	"github.com/michain/dotcoin/logx"
+	"github.com/hedianbin/godcoin/protocol"
+	"github.com/hedianbin/godcoin/logx"
 	"fmt"
-	"github.com/michain/dotcoin/util/hashx"
-	"github.com/michain/dotcoin/chain"
+	"github.com/hedianbin/godcoin/util/hashx"
+	"github.com/hedianbin/godcoin/chain"
 	"bytes"
 	"encoding/hex"
 )

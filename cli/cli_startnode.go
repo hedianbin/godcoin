@@ -2,9 +2,9 @@ package cli
 
 import (
 	"fmt"
-	"github.com/michain/dotcoin/wallet"
+	"github.com/hedianbin/godcoin/wallet"
 	"log"
-	"github.com/michain/dotcoin/server"
+	"github.com/hedianbin/godcoin/server"
 )
 
 func (cli *CLI) startNode(nodeID string, isMining bool, minerAddress string, isGenesis bool, listenAddr, seedAddr string) {

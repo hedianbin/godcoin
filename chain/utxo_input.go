@@ -2,9 +2,9 @@ package chain
 
 import (
 	"bytes"
-	"github.com/michain/dotcoin/wallet"
+	"github.com/hedianbin/godcoin/wallet"
 	"strconv"
-	"github.com/michain/dotcoin/util/hashx"
+	"github.com/hedianbin/godcoin/util/hashx"
 )
 
 // OutPoint defines a dotcoin data type that is used to track previous

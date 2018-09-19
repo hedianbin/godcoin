@@ -2,7 +2,7 @@ package peer
 
 import (
 	"net"
-	"github.com/michain/dotcoin/connx"
+	"github.com/hedianbin/godcoin/connx"
 	"bytes"
 	"encoding/gob"
 )
