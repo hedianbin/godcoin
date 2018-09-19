@@ -30,4 +30,4 @@ A simple and integrity blockchain implementation in Golang
 * *TODO: Auto difficulty*
 
 ## Tips
-Until now, the dotcoin node must have public ip.
+Until now, the godcoin node must have public ip.
